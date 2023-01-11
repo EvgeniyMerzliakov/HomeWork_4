@@ -14,5 +14,4 @@ void Output(int[] col)
         col[i] = Convert.ToInt32(Console.ReadLine());
     }
     Console.WriteLine("\nМассив: {0}",String.Join(" ",col));
-    Console.ReadLine();
 }
