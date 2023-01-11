@@ -10,7 +10,7 @@ void Exponentiation(int x, int y)
     {
         proi =proi * x;
     }
-    Console.WriteLine(proi);
+    Console.WriteLine($"Ответ {proi}");
 }
 
 
