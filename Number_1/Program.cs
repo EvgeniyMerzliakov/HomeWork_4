@@ -5,8 +5,12 @@
 
 void Exponentiation(int x, int y)
 {
-    double result = Math.Pow(x, y);
-    Console.WriteLine(result);
+    int proi = 1;
+    for (int i = 0; i < y; i++)
+    {
+        proi =proi * x;
+    }
+    Console.WriteLine(proi);
 }
 
 
